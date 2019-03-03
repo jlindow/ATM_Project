@@ -1,0 +1,30 @@
+m203618@ubuntu:~/Desktop/SY308/ATM_Project$ python3 atm.py
+ATM: balance
+
+ No user currently logged in
+
+ATM: begin-session
+ Welcome Alice
+ Please enter your pin: 1234
+ Authorized.
+
+ATM (Alice): balance
+
+ $100
+
+ATM (Alice): withdraw 1
+
+ $1 dispensed
+
+ATM (Alice): balance
+
+ $99
+
+ATM (Alice): end-session
+
+ Alice logged out
+
+ATM: ...
+
+ Invalid Request. Please type only begin-session, end-session, withdraw, or balance
+

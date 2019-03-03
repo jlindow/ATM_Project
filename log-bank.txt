@@ -1,0 +1,19 @@
+m203618@ubuntu:~/Desktop/SY308/ATM_Project$ python3 bank.py
+BANK: balance Alice
+$100
+
+BANK: balance Carol
+$0
+
+BANK: deposit Carol 2
+$2 added to Carol's account
+
+BANK: balance Carol
+$2
+
+BANK: deposit
+Invalid request
+BANK: give me money
+BANK: balance Dr.Mayberry
+Invalid user
+Bank: 
